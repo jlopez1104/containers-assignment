@@ -1,7 +1,7 @@
 school_subjects = ['Math','Science','Religion','Comp Sci','French','Gym']
 print("Current list:", school_subjects)
 
-remove = input("Enter the element to remove: ")
+remove = input("Enter the subject to remove: ")
 
 if remove in school_subjects:
     school_subjects.remove(remove)
